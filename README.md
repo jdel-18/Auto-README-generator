@@ -4,6 +4,8 @@
 
 This project was to create a README generator, answering a few questions on the answer in the command line using node.js 
 
+Images\Screenshot 2023-04-25 001552.png
+
 ## Table of Contents
 
 1. [Installation](#installation)
