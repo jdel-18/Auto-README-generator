@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -29,9 +30,9 @@ const questions = [
     name: 'license',
     choices: [
         'None',
-        'MIT',
-        'Apache 2.0',
-        'GNU 3.0'
+        'mit',
+        'apache 2.0',
+        'gnu 3.0'
     ]
 },
 {
@@ -63,7 +64,7 @@ function writeToFile(fileName, data) {
         console.error(err);
         return;
       }
-      console.log('README.md has been generated!');
+      console.log('README.md has been created!');
     });
   }
 
@@ -72,7 +73,7 @@ function init() {
     inquirer.prompt(questions)
       .then((data) => {
         const markdown = generateMarkdown(data);
-        writeToFile('README.md', markdown);
+        writeToFile('create-README.md', markdown);
       })
       .catch((err) => console.error(err));
   }
