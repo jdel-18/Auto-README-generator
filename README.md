@@ -4,7 +4,8 @@
 
 This project was to create a README generator, answering a few questions on the answer in the command line using node.js 
 
-![Alt text](Images\Screenshot 2023-04-25 001552.png)
+![Screenshot 2023-04-25 001552](https://user-images.githubusercontent.com/124110067/234181934-9ebc1cd7-b883-49eb-9dff-c232e4d39a13.png)
+
 
 ## Table of Contents
 
