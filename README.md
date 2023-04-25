@@ -1,7 +1,5 @@
 # 09 Node.js Challenge: Professional README Generator
 
-undefined
-
 ## Description
 
 This project was to create a README generator, answering a few questions on the answer in the command line using node.js 
