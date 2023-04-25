@@ -37,7 +37,7 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'Contribution',
+    name: 'contribution',
     message: 'Who are the contributors to this project?'
 },
 {
@@ -47,12 +47,12 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'Github',
+    name: 'github',
     message: 'What is your Github username?'
 },
 {
     type: 'input',
-    name: 'Email',
+    name: 'email',
     message: 'What is your Email?'
 }
 ];
